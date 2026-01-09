@@ -28,19 +28,17 @@ This mirrors real manufacturing/logistics analytics:
 
 \## Quickstart
 
-```bash
-
 pip install -r requirements.txt
 
-python src/generate\\\_data.py
+python src/generate_data.py
 
 python src/etl.py
 
-python src/quality\\\_checks.py
+python src/quality_checks.py
 
-python src/load\\\_sqlite.py
+python src/load_sqlite.py
 
-python src/kpi\\\_report.py
+python src/kpi_report.py
 
 
 
